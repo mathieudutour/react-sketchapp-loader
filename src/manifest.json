@@ -1,0 +1,23 @@
+{
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+	"commands": [
+		{
+			"name": "Open",
+			"identifier": "open",
+			"script": "./open.js"
+		},
+		{
+			"name": "Reopen last file",
+			"identifier": "reopen",
+			"script": "./reopen.js"
+		}
+	],
+	"menu": {
+		"title": "react-loader",
+		"items": [
+			"open",
+			"reopen"
+		]
+	}
+}

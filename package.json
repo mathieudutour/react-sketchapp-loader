@@ -1,0 +1,28 @@
+{
+  "name": "react-loader",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "",
+  "main": "plugin.sketchplugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd plugin.sketchplugin/Resources && npm i",
+    "build": "skpm build",
+    "publish": "skpm publish"
+  },
+  "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieudutour/react-sketchapp-loader.git"
+  },
+  "license": "MIT",
+  "manifest": "src/manifest.json",
+  "devDependencies": {
+    "skpm": "^0.5.3"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-sketchapp": "^0.8.0",
+    "sketch-module-user-preferences": "^0.2.3"
+  }
+}
